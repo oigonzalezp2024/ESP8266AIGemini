@@ -1,0 +1,40 @@
+{
+  "name": "ESP8266AIGemini",
+  "version": "1.0.0",
+  "keywords": "gemini,google,ai,artificial intelligence,esp,esp8266,hexagonal,ports,adapters,communication,json,http,networking",
+  "description": "Google Gemini Client for ESP8266 with Hexagonal Architecture.",
+  "authors": [
+    {
+      "name": "Oscar Gonzalez",
+      "email": "oigonzalezp2024@gmail.com",
+      "url": "https://github.com/oigonzalezp2024",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oigonzalezp2024/ESP8266AIGemini.git"
+  },
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266"
+  ],
+  "dependencies": [
+    {
+      "name": "ESP8266WiFi"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "^6.0.0" 
+    },
+    {
+      "name": "ESP8266HTTPClient"
+    }
+  ],
+  "export": {
+    "include": [
+      "src"
+    ]
+  },
+  "license": "MIT"
+}
