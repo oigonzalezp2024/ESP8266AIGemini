@@ -1,6 +1,6 @@
 {
   "name": "ESP8266AIGemini",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "keywords": "gemini,google,ai,artificial intelligence,esp,esp8266,hexagonal,ports,adapters,communication,json,http,networking",
   "description": "Google Gemini Client for ESP8266 with Hexagonal Architecture.",
   "authors": [
